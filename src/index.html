@@ -1,0 +1,179 @@
+<DOCTYPE html>
+    <html>
+
+    <head>
+        <title>
+            My First Website
+        </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="2style.css">
+    </head>
+
+    <body>
+        <div id="navbar">
+            <img id="logo" src="https://jovian.com/jovian_logo.svg" alt="Jovian logo">
+
+        </div>
+        <img id="banner" src="Banner.jpg" alt="Banner" height="240">
+        <h1 style='text-align: center; color: black;'>About Jovian</h1>
+
+        <div id="about">
+            <div id="description">
+                <p style="margin-top: 0;">The story of <b>Letraset</b> taking up this text remains somewhat murky, but
+                    it’s believed that
+                    librarian and
+                    type expert James Mosley at the St. Bride Printing Library, who had a close relationship wtih
+                    Letraset,
+                    helped develop lorem ipsum for their Body Type product in 1966. No matter the exact origins, it's
+                    admittedly
+                    an odd way for Cicero to sail into the 21st century</p>
+                <p>
+                    We offer two other course
+                <ol>
+                    <li>
+                        <a href="https://jovian.com/learn/web-development-with-html-and-css">
+                            Jovian Full stack developer Bootcamp</a>
+                    </li>
+                    <li>
+                        <a href="https://jovian.com/learn/data-structures-and-algorithms-in-python">
+                            Jovian Data Science Bootcamp</a>
+                    </li>
+                </ol>
+            </div>
+            <div id="team">
+                <img id="team image" src="team.jpg" alt="Team" height="300px">
+            </div>
+        </div>
+
+        </p>
+
+        <h2>Job Opportunities</h2>
+        <div id="jobs">
+            <table border="2" id="jobs-table">
+                <tr class="jobs-header-row">
+                    <th rowspan="2">Job Title</th>
+                    <th colspan="2">Location</th>
+                    <th rowspan="2">Salary</th>
+                    <th rowspan="2">Posted on</th>
+                </tr>
+                <tr class="jobs-header-row">
+                    <th>City</th>
+                    <th>Country</th>
+
+                </tr>
+                <tr class="jobs-data-row">
+                    <td>Frontend Developer</td>
+                    <td>Lagos</td>
+                    <td>Nigeria</td>
+                    <td>£12,000,000</td>
+                    <td>March 3,2026</td>
+                </tr>
+                <tr class="jobs-data-row">
+                    <td>Full Stack Developer</td>
+                    <td>Abuja</td>
+                    <td> Nigeria</td>
+                    <td>£15,000,000</td>
+                    <td>February 3,2026</td>
+                </tr>
+                <tr class="jobs-data-row">
+                    <td>Data scientist</td>
+                    <td>Ibadan</td>
+                    <td>Nigeria</td>
+                    <td>£18,000,000</td>
+                    <td>January 3,2026</td>
+                </tr>
+                <tr class="jobs-data-row">
+                    <td>ML Engineer</td>
+                    <td colspan="2">Remote</td>
+                    <td>£8,000,000</td>
+                    <td>April 3,2026</td>
+                </tr>
+            </table>
+        </div>
+        <div id="application">
+            <h2>Submit Your Application</h2>
+
+            <form id="application-form" action="https://formbold.com/s/910x0" method="POST" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="name">Full Name</label><br>
+                    <input type="text" id="name" name="Full Name" required placeholder="Ayreigns">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" email="email address" required placeholder="awyooo@gmail.com">
+                </div>
+                <div class="form-group">
+                    <label for="number">Phone Number</label><br>
+                    <input type="number" id="number" number="number" required placeholder="+2347043365065">
+                </div>
+
+
+                <div class="form-group">
+                    <label for="date">Date</label><br>
+                    <input type="date" id="date" date="Date">
+                </div>
+
+                <div class="form-group">
+                    <label for="Position">Position Applied for</label><br>
+                    <select name="Position" id="Position" required>
+                        <option value="select">Select Position</option>
+                        <option value="Frontend">Frontend Developer</option>
+                        <option value="Fullstack">Full Stack Developer</option>
+                        <option value="Datascientist">Data scientist</option>
+                        <option value="MLE">ML Engineer</option>
+                    </select>
+
+                </div>
+
+                <div class="form-group">
+                    <label for="resume">Upload Resume</label><br>
+                    <input type="file" id="resume" file="resume" required accept=".pdf, .docx">
+                </div>
+
+                <div class="form-group">
+                    <label for="coverletter">Cover Letter </label><br>
+                    <textarea name="coverletter" id="coverletter" rows="5" 
+                        placeholder="Expalin what makes you suitable for the job"></textarea>
+
+                </div>
+
+                <div class="form-group">
+                    <label for="terms">
+                        <input type="checkbox" id="terms" name="terms">I agree to the terms and conditions</label>
+                </div>
+
+                <div class="form-group" >
+                    <input type="submit" value="Submit Application">
+                </div>
+
+
+            </form>
+        </div>
+
+
+
+
+        <div id="footer">
+            <ul id="footer-links">
+                <li>
+                    <a href="https://jovian.com/learn/data-analysis-with-python-zero-to-pandas"
+                        target="_blank">Courses</a>
+                </li>
+                <li>
+                    <a href="https://jovian.com/learn/data-analysis-with-python-zero-to-pandas"
+                        target="_blank">Program</a>
+                </li>
+                <li>
+                    <a href="https://jovian.com/learn/data-analysis-with-python-zero-to-pandas"
+                        target="_blank">Youtube</a>
+                </li>
+            </ul>
+            <span class='copyright'>copyright,2026</span>
+        </div>
+    </body>
+
+    </html>
